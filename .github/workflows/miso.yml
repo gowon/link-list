@@ -41,7 +41,7 @@ jobs:
           cd ./sites/miso
           npx opentwig
           mkdir -p ../../artifacts/miso
-          cp dist* ../../artifacts/miso
+          cp -R dist/. ../../artifacts/miso
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
