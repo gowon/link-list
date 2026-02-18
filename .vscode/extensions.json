@@ -4,6 +4,9 @@
         "dbaeumer.vscode-eslint",
         "christian-kohler.path-intellisense",
         "christian-kohler.npm-intellisense",
-        "ms-vscode.live-server"
+        "ms-vscode.live-server",
+        "donjayamanne.githistory",
+        "mhutchie.git-graph",
+        "mk12.better-git-line-blame"
     ]
 }
