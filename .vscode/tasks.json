@@ -1,0 +1,46 @@
+{
+    "$schema": "vscode://schemas/tasks",
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build:clean-artifacts",
+            "detail": "Delete all build artifacts.",
+            "command": "find",
+            "type": "shell",
+            "args": [
+                "./sites",
+                "-type",
+                "d",
+                "-name",
+                "dist",
+                "-exec",
+                "rm",
+                "-rf",
+                "{}",
+                "+"
+            ],
+            "group": "none",
+            "presentation": {
+                "group": "buildTasks"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "build:generate-miso",
+            "detail": "Generate Miso link list.",
+            "command": "npx",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/sites/miso"
+            },
+            "args": [
+                "opentwig"
+            ],
+            "group": "none",
+            "presentation": {
+                "group": "buildTasks"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

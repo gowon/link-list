@@ -1,8 +1,8 @@
 {
     "theme": "colorful",
     "url": "https://gowon.github.io/link-list/miso",
-    "title": "Little Miso's Link List",
-    "name": "Little Miso",
+    "title": "Lil Miso's Link List",
+    "name": "Lil Miso",
     "content": "Thank you for supporting me as I grow!",
     "minify": true,
     "avatar": {
@@ -15,17 +15,17 @@
         },
         {
             "url": "https://www.amazon.com/hz/wishlist/ls/397FYYEX5NB9D?ref_=wl_share",
-            "title": "🛒 Purchase Gift from My Wish List"
+            "title": "🎁 Give a Gift from My Wish List"
         }
     ],
     "footerLinks": [
         {
-            "title": "529 Tax Information",
-            "content": "Most U.S. states offer full or partial income tax deductions or credits for contributions to a 529 plan. As of 2026, Georgia taxpayers can receive an state income tax deduction for contributions to a Path2College 529 Plan account up to $4,000 per year. Taxpayers in AZ, AR, KS, ME, MN, MO, MT, OH, PA can also receive a state income tax deduction."
+            "title": "529 Tax Benefits",
+            "content": "As of 2026, Georgia taxpayers can receive an state income tax deduction for contributions to a Path2College 529 Plan account up to $4,000 per year. Tax parity states like AZ, AR, KS, ME, MN, MO, MT, OH, PA also offer state income tax benefits. Read <a href=\"https://am.jpmorgan.com/content/dam/jpm-am-aem/americas/us/en/529-documents/529-plan-state-tax-map.pdf\" target=\"_blank\" rel=\"noopener\">J.P. Morgan's 529 State Plan Tax Map</a> to learn more."
         }
     ],
     "share": {
-        "title": "Little Miso\\'s Link List",
+        "title": "Lil Miso\\'s Link List",
         "url": "https://gowon.github.io/link-list/miso",
         "text": "Share"
     }
